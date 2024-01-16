@@ -124,15 +124,15 @@ export default class Crud extends React.Component {
       <div>
         <NavbarComponent />
         <div className="container mt-4">
-          <Tabel
-            bukus={this.state.bukus}
-            editData={this.editData}
-            hapusData={this.hapusData}
-          />
           <Formulir
             {...this.state}
             handleChange={this.handleChange}
             handleSubmit={this.handleSubmit}
+          />
+          <Tabel
+            bukus={this.state.bukus}
+            editData={this.editData}
+            hapusData={this.hapusData}
           />
         </div>
       </div>

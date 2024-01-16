@@ -1,10 +1,11 @@
 import React from 'react';
 import { Table, Button } from 'react-bootstrap';
+import '../css/crudd.css'
 
 const Tabel = ({ bukus, editData, hapusData }) => {
   return (
     <div className="table-responsive">
-      <Table striped bordered hover>
+      <Table striped bordered hover className="custom-table">
         <thead>
           <tr>
             <th>No</th>
@@ -30,8 +31,8 @@ const Tabel = ({ bukus, editData, hapusData }) => {
               <td>{buku.tanggalMasuk}</td>
               <td>{buku.harga}</td>
               <td>
-                <Button variant='warning' className='mr-1' onClick={() => editData(buku.id)}>Edit</Button>
-                <Button variant='danger' className='mr-1' onClick={() => hapusData(buku.id)}>Hapus</Button>
+                <Button id='editBut' variant='warning' className='mr-1' onClick={() => editData(buku.id)}>Edit</Button>
+                <Button id='hapusBut' variant='danger' className='mr-1' onClick={() => hapusData(buku.id)}>Hapus</Button>
               </td>
             </tr>
           ))}

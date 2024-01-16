@@ -1,0 +1,121 @@
+#nav {
+    background-color: #776B5D;
+    
+}
+
+.logo-image {
+    width: 180px;
+}
+
+#judulNav {
+    color: #F3EEEA;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#tabel {
+    border-radius: 30px;
+}
+
+#judulForm {
+    color: #222;
+    font-weight: bolder;
+}
+
+#inputForm {
+    background: #8e7e638e;
+    border: none;
+    border-radius: 30px;
+}
+
+#labelForm {
+    color: #111;
+    font-weight: 500;
+}
+
+#tombolSub {
+    background-color: #B0A695;
+    border: none;
+    color: #000;
+    padding: 15px;
+    border-radius: 30px;
+    width: 140px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#tombolSub:hover {
+    background-color: #776B5D;
+    font-weight: bold;
+}
+
+.custom-table {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden; 
+    border: none;
+  }
+  
+  .custom-table thead th {
+    background-color: #B0A695
+  }
+
+  .custom-table tbody td {
+    background-color: #EBE3D5;
+  }
+  
+  .custom-table tbody tr:hover {
+    background-color: #B0A695;
+  }
+  
+  .custom-table td, .custom-table th {
+    padding: 8px;
+  }
+
+  #editBut {
+    background-color: #e7b35a;
+    border-radius: 25px;
+    border: none;
+  }
+
+  #editBut:hover {
+    background-color: #c1974f;
+    border-radius: 25px;
+  }
+
+  #hapusBut {
+    background-color: #e13d3d;
+    border-radius: 25px;
+    border: none;
+  }
+
+  #hapusBut:hover {
+    background-color: #be3636;
+    border-radius: 25px;
+  }
+  
+
+body {
+    background: linear-gradient(98deg, #B0A695, #EBE3D5, #B0A695);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 79%}
+    50%{background-position:100% 22%}
+    100%{background-position:0% 79%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 79%}
+    50%{background-position:100% 22%}
+    100%{background-position:0% 79%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 79%}
+    50%{background-position:100% 22%}
+    100%{background-position:0% 79%}
+}
